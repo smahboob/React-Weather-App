@@ -57,15 +57,12 @@ function WeatherApp() {
                 <input  id = "citytext" type = "text" placeholder = "Enter City" onChange = {setCity} onKeyUp = {searchDataOnEnter}></input>
                 <button onClick = {searchData}>⇥</button>
             </div>
-
             <Card className = "city-card">
                 <CardContent>
                     Currrent City: <h4>{finalCity}{' , '}{country}</h4>
                 </CardContent>
             </Card>
-           
            <InfoCard currentTemperature = {currentTemperature} cityWeatherInfo = {cityWeatherInfo}></InfoCard>
-
         </div>
     )
 }
