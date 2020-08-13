@@ -1,7 +1,6 @@
  React Weather Application 
 
-
-## User Stories
+## Functionality
 
 The following **features** are available:
 
@@ -18,7 +17,7 @@ The following **optional** results are displayed:
 * [ ] Country for the city entered
 
 
-## Video Walkthrough 
+## UI/UX
 
 Here's a walkthrough of implemented user interface:
 
