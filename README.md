@@ -1,4 +1,4 @@
- React Weather Application 
+# React Weather Application 
 
 ## Functionality
 
@@ -32,6 +32,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+You need an API KEY to run this project.
+Visit https://weatherstack.com/ to generate your private API Key and enter it in the API_KEY variable inside WeatherApp Component.
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
