@@ -1,0 +1,82 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+    color: black;
+    text-shadow: 1px 1px 10px navy;
+
+}
+
+.cards-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.app{
+    text-align: center;
+}
+
+.card{
+    width: 20%;
+    height: 120px;
+    margin-top: 30px;
+    border-top: 8px solid darkblue;
+}
+
+.card2{
+    width: 20%;
+    height: 120px;
+    margin-top: 30px;
+    border-top: 8px solid olivedrab;
+}
+
+.card3{
+    width: 20%;
+    height: 120px;
+    margin-top: 30px;
+    border-top: 8px solid saddlebrown;
+}
+
+.search-div{
+    margin: 40px;
+}
+
+.search-div input {
+    width: 28%;
+    height: 30px;
+    font-size: medium;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.search-div input:focus {outline:0;}
+.search-div button:focus {outline:0;}
+
+.search-div button{
+    width: 3%;
+    height: 35px;
+    padding: 0px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-left: 2px;
+}
+
+.city-card{
+    width: 30%;
+    height: 85px;
+    margin-top: 30px;
+    border-top: 8px solid red;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: large;
+}
+
+.city-card h4{
+    margin-top: 5px;
+}
